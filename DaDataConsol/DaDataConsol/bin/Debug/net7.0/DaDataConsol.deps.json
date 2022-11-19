@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DaDataConsol/1.0.0": {
+        "dependencies": {
+          "DaData.Client": "0.1.8"
+        },
+        "runtime": {
+          "DaDataConsol.dll": {}
+        }
+      },
+      "DaData.Client/0.1.8": {
+        "dependencies": {
+          "RestSharp": "106.6.10"
+        },
+        "runtime": {
+          "lib/net45/DaData.Client.dll": {
+            "assemblyVersion": "1.0.8112.23444",
+            "fileVersion": "1.0.8112.23444"
+          }
+        }
+      },
+      "RestSharp/106.6.10": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.10.0",
+            "fileVersion": "106.6.10.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DaDataConsol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DaData.Client/0.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XpRhff9TX4AbBff5nyaQWGYPmPeRnkkOR9POo2QI6Rn9cqLIRVEmESPAy97M3s8eMF/FXoBMqaKcK/wWMqKT+w==",
+      "path": "dadata.client/0.1.8",
+      "hashPath": "dadata.client.0.1.8.nupkg.sha512"
+    },
+    "RestSharp/106.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "path": "restsharp/106.6.10",
+      "hashPath": "restsharp.106.6.10.nupkg.sha512"
+    }
+  }
+}
